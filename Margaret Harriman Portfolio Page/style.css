@@ -1,0 +1,84 @@
+body {
+	font-family: "Trebuchet MS";
+	background-color: black;
+	background-image: url("https://s23.postimg.org/whj6um4d7/Untitled2.gif");
+	background-size: 55%;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.indiv-tabs {
+	text-shadow: 3px 3px 36px #1e3760;
+	font-size: 24px;
+	position:fixed;
+	margin-left: 60px;
+	box-shadow: 1px 5px 36px 1px #30726a;
+}
+
+.center {
+    margin: auto;
+		width: 40%;
+}
+
+.inline-social {
+	float: left;
+	padding-left: 10px;
+}
+
+.text-area {
+	margin: auto;
+	margin-top: 95px;
+  width: 70%;
+	text-shadow: 3px 3px 36px #ffffff;
+	padding: 10px;
+	color: white;
+	background-color: rgba(0, 0, 0, .77);
+	font-size: 20px;
+	box-shadow: 1px 5px 36px 12px #30726a;
+}
+
+.portfolio-elements {
+	margin: auto;
+	width: 85%;
+	height: 85%;
+	color: black;
+	box-shadow: 1px 5px 36px 1px #30726a;
+}
+
+/* 
+Hover animation by Naoya on Codepen:
+https://codepen.io/nxworld/full/ZYNOBZ/
+Animation #10 - thanks Naoya!
+*/
+
+.hover figure img {
+	-webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover figure:hover img {
+	-webkit-filter: grayscale(100%) blur(3px);
+	filter: grayscale(100%) blur(3px);
+}
+
+#wrapper .portfolio-text {
+	position:relative;
+	bottom:30px;
+	left:0px;
+	font-size: 14px;
+	color: white;
+	text-shadow: 8px 8px 8px #30726a;
+	visibility:hidden;
+	-webkit-visibility: hidden;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#wrapper:hover .portfolio-text {
+	visibility: visible;
+	-webkit-visibility: visible;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
