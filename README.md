@@ -1,2 +1,1 @@
-# fromCodePen
-Exercises from CodePen.io
+# http://codepen.io/MargNation/
