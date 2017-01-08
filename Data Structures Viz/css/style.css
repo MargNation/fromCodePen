@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi');
+
+body {
+/* 	margin-top: 60px; */
+	background-color: #3b3a5e;
+	font-family: 'Reem Kufi', serif;
+	font-size: 24px;
+	text-shadow: 5px 5px 36px #ffffff;
+}
+
+canvas {
+	display: block;
+	z-index: 1;
+	cursor: crosshair;
+}
+
+.text-area{
+	text-align: center;
+}
+
+.ul {
+	margin-left: 25%;
+	display: table;
+}
+
+.numbers-area {
+	margin-left: 220px;
+	font-size: 24px;
+	color: white;
+/* 	text-shadow: 5px 5px 36px #ff0000; */
+}
+
+.label {
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+	padding: 4px 19px;
+}
+
+.label:hover {
+	color: white;
+	text-shadow: 5px 5px 36px #000000;
+}
+
+.button {
+	position: absolute;
+	background-color: #000000;
+  color: white;
+  padding: 4px 9px;
+  text-align: center;
+	font-family: 'Reem Kufi', serif;
+	font-size: 16px;
+  display: inline-block;
+	-webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+  cursor: crosshair;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: black;
+}

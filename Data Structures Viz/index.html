@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Data Structures Viz</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container-fluid">
+	<div class="row">
+		<div class="text-area">
+			<h1>Data Structures Viz</h1>
+			<h3 style="margin-top: -20px">See Numbers Displayed as Various Data Structures</h3>
+			<ul class="ul">
+				<button type="submit" class="button" style="z-index:2" id="randomizer" onclick="randomizer()">Generate Random Integers</button>
+				<label class="numbers-area" id="numbersArea"></label></h3>
+			</ul>
+			<h5>
+				<label class="label" id="binaryTree" onclick="createBinaryTree()">Binary Tree</label>||
+				<label class="label" id="queue" onclick="createQueue()">Queue</label>||
+				<label class="label" id="stack" onclick="createStack()">Stack</label>||
+				<label class="label" id="linkedList" onclick="createLinkedList()">Linked List</label>||
+				<label class="label" id="heap" onclick="createHeap()">Heap</label>||
+				<label class="label" id="doubleLinkedList" onclick="createDblLinkedList()">Doubly Linked List</label></h5>
+		</div>
+	</div>
+
+	<div>
+		<canvas id="canvas">Canvas is not supported in your browser.</canvas>
+	</div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+body {
+	background: #000;
+	margin: 0;
+/* 	background-image: url('http://www.html5canvastutorials.com/demos/assets/darth-vader.jpg');
+	background-size: 25%;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat; */
+}
+
+canvas {
+	cursor: crosshair;
+	display: block;
+}
