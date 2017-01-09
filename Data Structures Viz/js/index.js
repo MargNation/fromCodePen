@@ -1,11 +1,3 @@
-window.requestAnimFrame = (function() {
-	return window.requestAnimationFrame ||
-		window.webkitRequestAnimationFrame ||
-		window.mozRequestAnimationFrame ||
-		function(callback) {
-			window.setTimeout(callback, 1000 / 60);
-		};
-})();
 
 var canvas = document.getElementById('canvas'),
 	ctx = canvas.getContext('2d'),
@@ -46,13 +38,13 @@ function createBinaryTree() {
 function createQueue() {
 	ctx.clearRect(0, 7, canvas.width, canvas.height);
 	var startingTopLeft = canvasWidth / 5.5;
-	var center = [startingTopLeft + 35, 160];
+	var center = [startingTopLeft + 35, 135];
 	ctx.font="22px Comfortaa";
 	ctx.fillText("Index #:", center[0] - 125, center[1] + 75);
 	for (var i = 0; i < numbers.length; i++) {
 		ctx.strokeStyle = "#000000";
 		ctx.lineWidth = 7;
-		ctx.strokeRect(startingTopLeft, 100, 100, 100);
+		ctx.strokeRect(startingTopLeft, 75, 100, 100);
 		ctx.font="28px Comfortaa";
 		ctx.fillStyle = "white";
 		ctx.fillText(numbers[i], center[0], center[1]);
@@ -68,21 +60,21 @@ function createStack() {
 	ctx.clearRect(0, 7, canvas.width, canvas.height);
 	var startingX = (canvasWidth / 2) - 75;
 	var startingY = 75;
-	var center = [startingX + 35, startingY + 35];
+	var center = [startingX + 25, startingY + 50];
 	ctx.font="22px Comfortaa";
-	ctx.fillText("Index #:", center[0] - 125, center[1] + 75);
+	ctx.fillText("Index #:", center[0] - 155, center[1]);
 	for (var i = 0; i < numbers.length; i++) {
 		ctx.strokeStyle = "#000000";
 		ctx.lineWidth = 7;
 		ctx.strokeRect(startingX, startingY, 75, 75);
-		ctx.font="28px Comfortaa";
+		ctx.font="24px Comfortaa";
 		ctx.fillStyle = "white";
 		ctx.fillText(numbers[numbers.length - 1 - i], center[0], center[1]);
-		ctx.font="22px Comfortaa";
+		ctx.font="20px Comfortaa";
 		ctx.fillStyle = "black";
-		ctx.fillText((numbers.length - i), center[0], center[1] + 75);
+		ctx.fillText((numbers.length - 1 - i), center[0] - 55, center[1]);
 		startingY += 75;
-		center[0] += 75;
+		center[1] += 74;
 	}
 }
 
