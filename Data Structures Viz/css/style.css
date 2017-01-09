@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Reem+Kufi');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
 
 body {
 /* 	margin-top: 60px; */
 	background-color: #3b3a5e;
-	font-family: 'Reem Kufi', serif;
+	font-family: 'Comfortaa', serif;
 	font-size: 24px;
-	text-shadow: 5px 5px 36px #ffffff;
+	text-shadow: 5px 8px 36px #ffffff;
 }
 
 canvas {
@@ -19,15 +19,15 @@ canvas {
 }
 
 .ul {
-	margin-left: 25%;
+	margin-left: 30%;
 	display: table;
 }
 
 .numbers-area {
-	margin-left: 220px;
+	margin-left: 230px;
 	font-size: 24px;
 	color: white;
-/* 	text-shadow: 5px 5px 36px #ff0000; */
+	text-shadow: 5px 8px 36px #000000;
 }
 
 .label {
@@ -38,7 +38,7 @@ canvas {
 
 .label:hover {
 	color: white;
-	text-shadow: 5px 5px 36px #000000;
+	text-shadow: 5px 8px 36px #000000;
 }
 
 .button {
@@ -47,7 +47,7 @@ canvas {
   color: white;
   padding: 4px 9px;
   text-align: center;
-	font-family: 'Reem Kufi', serif;
+	font-family: 'ctx.font="24px Comfortaa";', serif;
 	font-size: 16px;
   display: inline-block;
 	-webkit-transition-duration: 0.6s;
