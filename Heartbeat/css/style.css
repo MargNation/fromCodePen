@@ -2,7 +2,12 @@
 
 body {
 	background: #000;
-	margin: 0;
+	margin-top: 44px;
+	background-image: url(https://s27.postimg.org/et58do0z7/neon_heart_rate_monitor_b1_xyc_ws_S0000.jpg);
+	background-size: 125%;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 canvas {
