@@ -10,6 +10,7 @@ body {
 
 canvas {
 	display: block;
+	position: absolute;
 	z-index: 1;
 	cursor: crosshair;
 }
@@ -24,7 +25,7 @@ canvas {
 }
 
 .numbers-area {
-	margin-left: 230px;
+	margin-left: 250px;
 	font-size: 24px;
 	color: white;
 	text-shadow: 5px 8px 36px #000000;
@@ -34,6 +35,7 @@ canvas {
 	-webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 	padding: 4px 19px;
+	/*z-index: 2;*/
 }
 
 .label:hover {
@@ -41,18 +43,21 @@ canvas {
 	text-shadow: 5px 8px 36px #000000;
 }
 
+/*.labelForButton*/
+
 .button {
 	position: absolute;
+	z-index: 2;
 	background-color: #000000;
-  color: white;
-  padding: 4px 9px;
-  text-align: center;
-	font-family: 'ctx.font="24px Comfortaa";', serif;
+  	color: white;
+  	padding: 4px 9px;
+  	text-align: center;
+	font-family: 'Comfortaa', serif;
 	font-size: 16px;
-  display: inline-block;
+  	display: inline-block;
 	-webkit-transition-duration: 0.6s;
     transition-duration: 0.6s;
-  cursor: crosshair;
+  	cursor: crosshair;
 }
 
 .button:hover {
