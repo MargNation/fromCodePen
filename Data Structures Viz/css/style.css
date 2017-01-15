@@ -35,7 +35,7 @@ canvas {
 	-webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 	padding: 4px 19px;
-	/*z-index: 2;*/
+	z-index: 2;
 }
 
 .label:hover {
@@ -43,7 +43,18 @@ canvas {
 	text-shadow: 5px 8px 36px #000000;
 }
 
-/*.labelForButton*/
+.labelForButton {
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    display: none;
+	padding: 4px 19px;
+	z-index: 2;
+}
+
+.labelForButton:hover {
+	display: block;
+	visibility: visible;
+}
 
 .button {
 	position: absolute;
