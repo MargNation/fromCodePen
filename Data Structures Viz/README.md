@@ -4,7 +4,7 @@ This pen will create various data structures from sets of numbers and will allow
 step through each structure and learn how each is created. Hopefully CS students (and others!) 
 will benefit from this program.
 
-####Here are the goals I'd like to achieve with this program:<br>
+####Here are the goals and functionalities I'd like to achieve with this program:<br>
 1. <b>Binary Tree</b><br>
   * insert() :black_large_square:<br>
   * search() :black_large_square:<br>
